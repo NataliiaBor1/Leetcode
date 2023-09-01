@@ -46,7 +46,7 @@ public class L13_RomanToInteger {
         Explanation: M = 1000, CM = 900, XC = 90 and IV = 4.
      */
 
-    public static int romanToInt(String s) {
+    public int romanToInt(String s) {
 
         int result = 0;
 
@@ -74,18 +74,19 @@ public class L13_RomanToInteger {
         }
 
         return result;
+
     }
 
     public static void main(String[] args) {
-        String s = "III";
-        String s1 = "LVIII";
-        String s2 = "MCMXCIV";
-        String s3 = "XIV";
-
-        System.out.println(romanToInt(s));
-        System.out.println(romanToInt(s1));
-        System.out.println(romanToInt(s2));
-        System.out.println(romanToInt(s3));
+//        String s = "III";
+//        String s1 = "LVIII";
+//        String s2 = "MCMXCIV";
+//        String s3 = "XIV";
+//
+//        System.out.println(romanToInt(s));
+//        System.out.println(romanToInt(s1));
+//        System.out.println(romanToInt(s2));
+//        System.out.println(romanToInt(s3));
     }
 
 

@@ -1,3 +1,5 @@
+import javax.crypto.spec.PSource;
+
 public class L202_HappyNumber {
 
     /*
@@ -16,19 +18,42 @@ public class L202_HappyNumber {
         Input: n = 19
         Output: true
         Explanation:
-        12 + 92 = 82
-        82 + 22 = 68
-        62 + 82 = 100
-        12 + 02 + 02 = 1
+        1^2 + 9^2 = 82
+        8^2 + 2^2 = 68
+        6^2 + 8^2 = 100
+        1^2 + 0^2 + 0^2 = 1
 
         Example 2:
         Input: n = 2
         Output: false
      */
 
-    public boolean isHappy(int n) {
+    public boolean isHappy(int n) {  // wrong
 
-        return true;
+        String s = String.valueOf(n);
+        int sum = 0;
+        boolean isHappy = false;
+
+        while (!isHappy) {
+            for (int i = 0; i < s.length(); i++) {
+                sum += Math.pow((s.charAt(i) - '0'), 2);
+                System.out.println(sum);
+            }
+            if (sum == 1) {
+                isHappy = true;
+                return true;
+            }
+        }
+
+        return false;
+    }
+
+    public static void main(String[] args) {
+        int n = 19;
+        System.out.println(new L202_HappyNumber().isHappy(n));
+        char num = '8';
+        System.out.println(num - '0');
+
 
     }
 
