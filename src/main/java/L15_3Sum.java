@@ -2,9 +2,10 @@ import java.util.*;
 
 public class L15_3Sum {
     /*
-    https://leetcode.com/problems/3sum/
+        15. 3Sum
 
-    15. 3Sum
+        https://leetcode.com/problems/3sum/
+
         Given an integer array nums, return all the triplets [nums[i], nums[j], nums[k]] such that i != j, i != k,
         and j != k, and nums[i] + nums[j] + nums[k] == 0.
 
