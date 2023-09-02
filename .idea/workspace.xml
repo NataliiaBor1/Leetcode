@@ -5,11 +5,12 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="c0cec018-4a86-46c2-a8ce-0151082afa05" name="Changes" comment="Parameterized tests with JUnit Jupiter">
+      <change afterPath="$PROJECT_DIR$/src/test/java/L202_HappyNumberTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/L13_RomanToInteger.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/L13_RomanToInteger.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/L15_3Sum.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/L15_3Sum.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/L202_HappyNumber.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/L202_HappyNumber.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/L13_RomanToIntegerTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/L13_RomanToIntegerTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/L15_3SumTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/L15_3SumTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -51,23 +52,9 @@
       <recent name="" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.L15_3Sum">
-    <configuration name="L13_RomanToInteger" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="L13_RomanToInteger" />
-      <module name="Leetcode" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="JUnit.L202_HappyNumberTest">
     <configuration name="L15_3Sum" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="L15_3Sum" />
-      <module name="Leetcode" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="L202_HappyNumber" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="L202_HappyNumber" />
       <module name="Leetcode" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -82,10 +69,29 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="L1_TwoSumTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="L15_3SumTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="Leetcode" />
       <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="L1_TwoSumTest" />
+      <option name="MAIN_CLASS_NAME" value="L15_3SumTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="L15_3SumTest.testThreeSum" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Leetcode" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="L15_3SumTest" />
+      <option name="METHOD_NAME" value="testThreeSum(int[],java.util.List)" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="L202_HappyNumberTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Leetcode" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="L202_HappyNumberTest" />
       <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -93,11 +99,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.L15_3Sum" />
-        <item itemvalue="Application.L202_HappyNumber" />
+        <item itemvalue="JUnit.L202_HappyNumberTest" />
         <item itemvalue="JUnit.L13_RomanToIntegerTest" />
-        <item itemvalue="Application.L13_RomanToInteger" />
-        <item itemvalue="JUnit.L1_TwoSumTest" />
+        <item itemvalue="JUnit.L15_3SumTest" />
+        <item itemvalue="JUnit.L15_3SumTest.testThreeSum" />
+        <item itemvalue="Application.L15_3Sum" />
       </list>
     </recent_temporary>
   </component>
@@ -117,7 +123,14 @@
       <option name="project" value="LOCAL" />
       <updated>1693513069480</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Parameterized tests with JUnit Jupiter">
+      <created>1693590705832</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1693590705833</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">

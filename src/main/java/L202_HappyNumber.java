@@ -1,4 +1,6 @@
 import javax.crypto.spec.PSource;
+import java.util.HashSet;
+import java.util.Set;
 
 public class L202_HappyNumber {
 
@@ -46,6 +48,27 @@ public class L202_HappyNumber {
         }
 
         return false;
+    }
+
+    public boolean isHappy1(int n) {
+
+        Set<Integer> usedIntegers = new HashSet<>();
+        while (true) {
+
+            int sum = 0;
+            while (n != 0) {
+                sum += Math.pow(n % 10, 2);
+                n = n/10;
+            }
+
+            if (sum == 1) return true;
+            n = sum;
+
+            if (usedIntegers.contains(n)) {
+                return false;
+            }
+            usedIntegers.add(n);
+        }
     }
 
     public static void main(String[] args) {
