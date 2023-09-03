@@ -19,7 +19,8 @@ public class L13_RomanToIntegerTest {
                 Arguments.of("", 0),
                 Arguments.of("XLIX", 49),
                 Arguments.of("XCVIII", 98),
-                Arguments.of("CDXCIX", 499)
+                Arguments.of("CDXCIX", 499),
+                Arguments.of("DCXXI", 621)
         );
     }
 

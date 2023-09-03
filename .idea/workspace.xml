@@ -5,12 +5,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="c0cec018-4a86-46c2-a8ce-0151082afa05" name="Changes" comment="Parameterized tests with JUnit Jupiter">
-      <change afterPath="$PROJECT_DIR$/src/main/java/L1920_BuildArrayFromPermutation.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/L1920_BuildArrayFromPermutationTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/L1929_ConcatenationOfArray.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/L1929_ConcatenationOfArrayTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/L13_RomanToInteger.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/L13_RomanToInteger.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/L15_3Sum.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/L15_3Sum.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/L202_HappyNumber.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/L202_HappyNumber.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/L13_RomanToIntegerTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/L13_RomanToIntegerTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -52,7 +50,7 @@
       <recent name="" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.L1920_BuildArrayFromPermutationTest">
+  <component name="RunManager" selected="JUnit.L1929_ConcatenationOfArrayTest">
     <configuration name="L1920_BuildArrayFromPermutation" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="L1920_BuildArrayFromPermutation" />
       <module name="Leetcode" />
@@ -69,19 +67,19 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="L15_3SumTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="L1920_BuildArrayFromPermutationTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="Leetcode" />
       <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="L15_3SumTest" />
+      <option name="MAIN_CLASS_NAME" value="L1920_BuildArrayFromPermutationTest" />
       <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="L1920_BuildArrayFromPermutationTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="L1929_ConcatenationOfArrayTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="Leetcode" />
       <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="L1920_BuildArrayFromPermutationTest" />
+      <option name="MAIN_CLASS_NAME" value="L1929_ConcatenationOfArrayTest" />
       <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -98,11 +96,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.L1929_ConcatenationOfArrayTest" />
+        <item itemvalue="JUnit.L13_RomanToIntegerTest" />
         <item itemvalue="JUnit.L1920_BuildArrayFromPermutationTest" />
         <item itemvalue="Application.L1920_BuildArrayFromPermutation" />
         <item itemvalue="JUnit.L202_HappyNumberTest" />
-        <item itemvalue="JUnit.L13_RomanToIntegerTest" />
-        <item itemvalue="JUnit.L15_3SumTest" />
       </list>
     </recent_temporary>
   </component>
@@ -136,7 +134,14 @@
       <option name="project" value="LOCAL" />
       <updated>1693615102884</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="Parameterized tests with JUnit Jupiter">
+      <created>1693621103654</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1693621103654</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
