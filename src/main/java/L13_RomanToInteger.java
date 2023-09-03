@@ -61,6 +61,9 @@ public class L13_RomanToInteger {
         map.put('M', 1000);
 
         for (int i = 0; i < s.length(); i++) {
+
+            if (!map.containsKey(s.charAt(i))) return 0;
+
             if ((i + 1) < s.length()) {
                 if (s.charAt(i) == 'I' && (s.charAt(i + 1) == 'V' || s.charAt(i + 1) == 'X') ||
                         s.charAt(i) == 'X' && (s.charAt(i + 1) == 'L' || s.charAt(i + 1) == 'C') ||
@@ -77,16 +80,61 @@ public class L13_RomanToInteger {
         return result;
     }
 
-    public static void main(String[] args) {
-//        String s = "III";
-//        String s1 = "LVIII";
-//        String s2 = "MCMXCIV";
-//        String s3 = "XIV";
-//
-//        System.out.println(romanToInt(s));
-//        System.out.println(romanToInt(s1));
-//        System.out.println(romanToInt(s2));
-//        System.out.println(romanToInt(s3));
+
+    public int romanToInt1(String s) {
+
+        int result = 0;
+
+        Map<Character, Integer> map = new HashMap<>();
+        map.put('I', 1);
+        map.put('V', 5);
+        map.put('X', 10);
+        map.put('L', 50);
+        map.put('C', 100);
+        map.put('D', 500);
+        map.put('M', 1000);
+
+        for (int i = 0; i < s.length(); i++) {
+            if (!map.containsKey(s.charAt(i))) return 0;
+
+            int value = map.get(s.charAt(i));
+
+            if (i < s.length() - 1 && value < map.get(s.charAt(i+1))) {
+                result -= value;
+            } else {
+                result += value;
+            }
+        }
+
+        return result;
+    }
+
+
+    public int romanToInt2(String s) {
+
+        int sum = 0;
+
+        for (int i = s.length()-1; i >= 0; i--) {
+            int num = 0;
+            switch (s.charAt(i)) {
+                case 'I' -> num = 1;
+                case 'V' -> num = 5;
+                case 'X' -> num = 10;
+                case 'L' -> num = 50;
+                case 'C' -> num = 100;
+                case 'D' -> num = 500;
+                case 'M' -> num = 1000;
+                default -> {return 0;}
+            }
+
+            if (4 * num < sum) {
+                sum -= num;
+            } else {
+                sum += num;
+            }
+        }
+
+        return sum;
     }
 
 

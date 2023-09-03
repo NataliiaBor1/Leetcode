@@ -12,7 +12,8 @@ public class L1929_ConcatenationOfArrayTest {
                 Arguments.of(new int[] {1,2,1}, new int[] {1,2,1,1,2,1}),
                 Arguments.of(new int[] {1,3,2,1}, new int[] {1,3,2,1,1,3,2,1}),
                 Arguments.of(new int[] {1,1,1}, new int[] {1,1,1,1,1,1}),
-                Arguments.of(new int[] {}, new int[] {})
+                Arguments.of(new int[] {}, new int[] {}),
+                Arguments.of(new int[] {-1,-3,-2,-1}, new int[] {-1,-3,-2,-1,-1,-3,-2,-1})
         );
     }
 

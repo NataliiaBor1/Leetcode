@@ -1,4 +1,5 @@
 import org.junit.jupiter.api.Assertions;
+import org.junit.jupiter.api.Disabled;
 import org.junit.jupiter.params.ParameterizedTest;
 import org.junit.jupiter.params.provider.Arguments;
 import org.junit.jupiter.params.provider.MethodSource;
@@ -20,7 +21,8 @@ public class L13_RomanToIntegerTest {
                 Arguments.of("XLIX", 49),
                 Arguments.of("XCVIII", 98),
                 Arguments.of("CDXCIX", 499),
-                Arguments.of("DCXXI", 621)
+                Arguments.of("DCXXI", 621),
+                Arguments.of("YTMRU", 0)
         );
     }
 
@@ -29,6 +31,25 @@ public class L13_RomanToIntegerTest {
     public void testRomanToInteger(String s, int expectedResult) {
 
         int actualResult = new L13_RomanToInteger().romanToInt(s);
+
+        Assertions.assertEquals(expectedResult, actualResult);
+    }
+
+    @ParameterizedTest
+    @MethodSource("romanToIntegerArgumentsProvider")
+    public void testRomanToInteger1(String s, int expectedResult) {
+
+        int actualResult = new L13_RomanToInteger().romanToInt1(s);
+
+        Assertions.assertEquals(expectedResult, actualResult);
+    }
+
+//    @Disabled
+    @ParameterizedTest
+    @MethodSource("romanToIntegerArgumentsProvider")
+    public void testRomanToInteger2(String s, int expectedResult) {
+
+        int actualResult = new L13_RomanToInteger().romanToInt2(s);
 
         Assertions.assertEquals(expectedResult, actualResult);
     }
