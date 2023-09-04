@@ -22,7 +22,16 @@ public class L13_RomanToIntegerTest {
                 Arguments.of("XCVIII", 98),
                 Arguments.of("CDXCIX", 499),
                 Arguments.of("DCXXI", 621),
-                Arguments.of("YTMRU", 0)
+                Arguments.of("YTMRU", 0),
+                Arguments.of("YTRU", 0),
+                Arguments.of("XXVII", 27),
+                Arguments.of("I", 1),
+                Arguments.of("II", 2),
+                Arguments.of("MMMCMXCVIII", 3998),
+                Arguments.of("MMMCMXCIX", 3999),
+                Arguments.of("MMMCMXCIXMMMCMXCIXMMMCMXCIX", 0),
+                Arguments.of("MCQIX", 0),
+                Arguments.of("ZCIX", 0)
         );
     }
 

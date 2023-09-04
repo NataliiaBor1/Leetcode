@@ -8,7 +8,6 @@
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/L13_RomanToInteger.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/L13_RomanToInteger.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/L13_RomanToIntegerTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/L13_RomanToIntegerTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/L1929_ConcatenationOfArrayTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/L1929_ConcatenationOfArrayTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -148,7 +147,14 @@
       <option name="project" value="LOCAL" />
       <updated>1693772310262</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="Parameterized tests with JUnit Jupiter">
+      <created>1693778969237</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1693778969237</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">

@@ -110,7 +110,9 @@ public class L13_RomanToInteger {
     }
 
 
-    public int romanToInt2(String s) {
+    public int romanToInt2(String s) {  // with all constraints
+
+        if (s == null || s.length() < 1 || s.length() > 15) return 0;
 
         int sum = 0;
 
@@ -134,8 +136,8 @@ public class L13_RomanToInteger {
             }
         }
 
+        if (sum < 1 || sum > 3999) return 0;
+
         return sum;
     }
-
-
 }
