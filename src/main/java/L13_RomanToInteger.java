@@ -49,6 +49,8 @@ public class L13_RomanToInteger {
 
     public int romanToInt(String s) {
 
+        if (s == null || s.length() < 1 || s.length() > 15) return 0;
+
         int result = 0;
 
         Map<Character, Integer> map = new HashMap<>();
@@ -83,6 +85,8 @@ public class L13_RomanToInteger {
 
     public int romanToInt1(String s) {
 
+        if (s == null || s.length() < 1 || s.length() > 15) return 0;
+
         int result = 0;
 
         Map<Character, Integer> map = new HashMap<>();
@@ -105,6 +109,8 @@ public class L13_RomanToInteger {
                 result += value;
             }
         }
+
+        if (result < 1 || result > 3999) return 0;
 
         return result;
     }

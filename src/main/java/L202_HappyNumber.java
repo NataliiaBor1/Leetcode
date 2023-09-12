@@ -72,6 +72,38 @@ public class L202_HappyNumber {
         }
     }
 
+    public boolean isHappy2(int n) {
+
+        int sum = 0;
+        while (n > 0) {
+            sum += ((n % 10) * (n % 10));
+            n /= 10;
+        }
+
+        if (sum == 1) {
+            return true;
+        } else if (sum == 7 || sum > 9) {
+            return isHappy2(sum);
+        }
+        return false;
+    }
+
+    public boolean isHappy3(int n) { // with all constraints
+
+        if (n < 1 || n > Integer.MAX_VALUE) return false;
+
+        while (n >= 10) {
+            int sum = 0;
+            while (n > 0) {
+                sum += (n % 10) * (n % 10);
+                n = n / 10;
+            }
+            n=sum;
+        }
+
+        return n == 1 || n == 7;
+    }
+
     public static void main(String[] args) {
         int n = 19;
         System.out.println(new L202_HappyNumber().isHappy(n));

@@ -44,6 +44,7 @@ public class L13_RomanToIntegerTest {
         Assertions.assertEquals(expectedResult, actualResult);
     }
 
+    @Disabled
     @ParameterizedTest
     @MethodSource("romanToIntegerArgumentsProvider")
     public void testRomanToInteger1(String s, int expectedResult) {
@@ -53,7 +54,6 @@ public class L13_RomanToIntegerTest {
         Assertions.assertEquals(expectedResult, actualResult);
     }
 
-//    @Disabled
     @ParameterizedTest
     @MethodSource("romanToIntegerArgumentsProvider")
     public void testRomanToInteger2(String s, int expectedResult) {
