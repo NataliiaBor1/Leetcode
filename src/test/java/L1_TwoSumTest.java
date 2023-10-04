@@ -30,7 +30,6 @@ public class L1_TwoSumTest {
                 Arguments.of(new int[] {}, 9, new int[] {-1, -1}),
                 Arguments.of(new int[] {1}, 9, new int[] {-1, -1}),
                 Arguments.of(new int[] {2, -7, -11, 15}, -18, new int[] {1, 2})
-
         );
     }
 

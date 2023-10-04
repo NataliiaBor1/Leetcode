@@ -5,13 +5,13 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="c0cec018-4a86-46c2-a8ce-0151082afa05" name="Changes" comment="Parameterized tests with JUnit Jupiter">
-      <change afterPath="$PROJECT_DIR$/src/main/java/L1365_HowManyNumbersAreSmallerThanCurrent.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/L1365_HowManyNumbersAreSmallerThanCurrentTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/L14_CommonPrefix.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/L2446_DetermineIfTwoEventsHaveConflict.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/L27_RemoveElement.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/L14_CommonPrefixTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/L27_RemoveElementTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/L13_RomanToInteger.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/L13_RomanToInteger.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/L202_HappyNumber.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/L202_HappyNumber.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/L13_RomanToIntegerTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/L13_RomanToIntegerTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/L202_HappyNumberTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/L202_HappyNumberTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/L1_TwoSumTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/L1_TwoSumTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -37,25 +37,39 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "project.structure.last.edited": "Modules",
-    "project.structure.proportion": "0.0",
-    "project.structure.side.proportion": "0.0",
-    "settings.editor.selected.configurable": "org.jetbrains.plugins.github.ui.GithubSettingsConfigurable"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.0&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.0&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;org.jetbrains.plugins.github.ui.GithubSettingsConfigurable&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
       <recent name="" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.L1365_HowManyNumbersAreSmallerThanCurrentTest">
+  <component name="RunManager" selected="JUnit.L27_RemoveElementTest.testRemoveElements">
     <configuration name="L1365_HowManyNumbersAreSmallerThanCurrent" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="L1365_HowManyNumbersAreSmallerThanCurrent" />
+      <module name="Leetcode" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="L14_CommonPrefix" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="L14_CommonPrefix" />
+      <module name="Leetcode" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="L27_RemoveElement" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="L27_RemoveElement" />
       <module name="Leetcode" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -70,41 +84,23 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="L13_RomanToIntegerTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="L27_RemoveElementTest.testRemoveElements" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="Leetcode" />
       <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="L13_RomanToIntegerTest" />
-      <option name="TEST_OBJECT" value="class" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="L13_RomanToIntegerTest.testRomanToInteger" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="Leetcode" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="L13_RomanToIntegerTest" />
-      <option name="METHOD_NAME" value="testRomanToInteger(java.lang.String,int)" />
+      <option name="MAIN_CLASS_NAME" value="L27_RemoveElementTest" />
+      <option name="METHOD_NAME" value="testRemoveElements(int[],int,int)" />
       <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="L202_HappyNumberTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="Leetcode" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="L202_HappyNumberTest" />
-      <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.L27_RemoveElementTest.testRemoveElements" />
+        <item itemvalue="Application.L14_CommonPrefix" />
+        <item itemvalue="Application.L27_RemoveElement" />
         <item itemvalue="JUnit.L1365_HowManyNumbersAreSmallerThanCurrentTest" />
         <item itemvalue="Application.L1365_HowManyNumbersAreSmallerThanCurrent" />
-        <item itemvalue="JUnit.L202_HappyNumberTest" />
-        <item itemvalue="JUnit.L13_RomanToIntegerTest" />
-        <item itemvalue="JUnit.L13_RomanToIntegerTest.testRomanToInteger" />
       </list>
     </recent_temporary>
   </component>
@@ -166,7 +162,14 @@
       <option name="project" value="LOCAL" />
       <updated>1693806056563</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="Parameterized tests with JUnit Jupiter">
+      <created>1694557523327</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1694557523327</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
