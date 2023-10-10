@@ -34,6 +34,7 @@ public class L2446_DetermineIfTwoEventsHaveConflict {
         Example 4:
         event1 = ["14:13","22:08"]
         event2 = ["02:40","08:08"]
+        Output: false
 
         Constraints:
         evnet1.length == event2.length == 2.
@@ -56,16 +57,25 @@ public class L2446_DetermineIfTwoEventsHaveConflict {
         int event2FinishHours = Integer.parseInt(event1[1].substring(0,2));
         int event2FinishMinutes = Integer.parseInt(event1[1].substring(3));
 
-        if (event1FinishHours < event2StartHours) {
-            return false;
-        } else if (event1FinishHours == event2StartHours && event1FinishMinutes < event2StartMinutes) {
-            return false;
-        } else if (event2StartHours < event1FinishHours) {
-            return false;
-        } else if (event2FinishHours == event1StartHours && event2FinishMinutes < event1StartMinutes) {
-            return false;
+        if (event2StartHours <= event1FinishHours && event1StartHours <= event2FinishHours) {
+            return true;
         }
+//        } else if (event1FinishHours == event2StartHours && event1FinishMinutes > event2StartMinutes) {
+//            return true;
+//        } else if (event2StartHours == event1FinishHours) {
+//            return true;
+//        } else if (event2FinishHours == event1StartHours && event2FinishMinutes < event1StartMinutes) {
+//            return true;
+//        }
 
-        return true;
+        return false;
+    }
+
+    public boolean haveConflict1(String[] event1, String[] event2){
+        int st1 = Integer.parseInt(event1[0].substring(0, 2))*60 + Integer.parseInt(event1[0].substring(3));
+        int et1 = Integer.parseInt(event1[1].substring(0, 2))*60 + Integer.parseInt(event1[1].substring(3));
+        int st2 = Integer.parseInt(event2[0].substring(0, 2))*60 + Integer.parseInt(event2[0].substring(3));
+        int et2 = Integer.parseInt(event2[1].substring(0, 2))*60 + Integer.parseInt(event2[1].substring(3));
+        return st2<=et1 && st1<=et2;
     }
 }

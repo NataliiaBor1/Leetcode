@@ -5,13 +5,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="c0cec018-4a86-46c2-a8ce-0151082afa05" name="Changes" comment="Parameterized tests with JUnit Jupiter">
-      <change afterPath="$PROJECT_DIR$/src/main/java/L14_CommonPrefix.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/L2446_DetermineIfTwoEventsHaveConflict.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/L27_RemoveElement.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/L14_CommonPrefixTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/L27_RemoveElementTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/L2828_CheckIfStringIsAcronymOfWords.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/L2446_DetermineIfTwoEventsHaveConflictTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/L2828_CheckIfStringIsAcronymOfWordsTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/L1_TwoSumTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/L1_TwoSumTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/L2446_DetermineIfTwoEventsHaveConflict.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/L2446_DetermineIfTwoEventsHaveConflict.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -53,14 +51,7 @@
       <recent name="" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.L27_RemoveElementTest.testRemoveElements">
-    <configuration name="L1365_HowManyNumbersAreSmallerThanCurrent" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="L1365_HowManyNumbersAreSmallerThanCurrent" />
-      <module name="Leetcode" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="JUnit.L2828_CheckIfStringIsAcronymOfWordsTest.testCheckIfStringIsAcronymOfWords">
     <configuration name="L14_CommonPrefix" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="L14_CommonPrefix" />
       <module name="Leetcode" />
@@ -94,13 +85,23 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="L2828_CheckIfStringIsAcronymOfWordsTest.testCheckIfStringIsAcronymOfWords" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Leetcode" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="L2828_CheckIfStringIsAcronymOfWordsTest" />
+      <option name="METHOD_NAME" value="testCheckIfStringIsAcronymOfWords(java.util.List,java.lang.String,boolean)" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.L2828_CheckIfStringIsAcronymOfWordsTest.testCheckIfStringIsAcronymOfWords" />
         <item itemvalue="JUnit.L27_RemoveElementTest.testRemoveElements" />
         <item itemvalue="Application.L14_CommonPrefix" />
         <item itemvalue="Application.L27_RemoveElement" />
         <item itemvalue="JUnit.L1365_HowManyNumbersAreSmallerThanCurrentTest" />
-        <item itemvalue="Application.L1365_HowManyNumbersAreSmallerThanCurrent" />
       </list>
     </recent_temporary>
   </component>
@@ -169,7 +170,14 @@
       <option name="project" value="LOCAL" />
       <updated>1694557523327</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="Parameterized tests with JUnit Jupiter">
+      <created>1696389189246</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1696389189246</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
